@@ -24,6 +24,9 @@ const handlers = {
         const speechOutput = "How can I help you?";
         this.emit(':ask', speechOutput, speechOutput);
     },
+    'AMAZON.NoIntent': function () {
+        this.emit(':tell', 'Ok. Goodbye.');
+    },
     'AMAZON.CancelIntent': function () {
         this.emit(':tell', 'Ok. Goodbye.');
     },
