@@ -1,2 +1,2 @@
-# ucla-basketball
+# UCLA Basketball
 Alexa skill for UCLA basketball
